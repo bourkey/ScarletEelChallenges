@@ -1,12 +1,59 @@
-name: "Example"
-author: "ANZ SE Team"
-description: |
-  This is the first CTF question, its a very simple request, What are the first five letters of the English alphabet? as a string with no spaces e.g. "abcde"
-category: "Warmup"
-value: 100
-type: standard
-state: visible
-flags: 
-  - abcde 
-requirements:
-    - "Disclaimer"
+challenges:
+  - name: "Scarlet Eel"
+    category: "Technology"
+    description: |
+      What are the different technologies used by Scarlet eel?
+
+      Flag format: CTF
+    value: 50
+    type: "standard"
+    state: "visible"
+    max_attempts: 0
+    flags:
+      - flag: "CTF"
+        type: "static"
+    hints:
+      - content: "Terraform" 
+        cost: 10
+      - content: "Kubernetes"
+        cost: 10
+    tags:
+      - "scarlet-eel"
+      - "beginner"
+
+  - name: "Scarlet Eel provider"
+    category: "Cloud provider"
+    description: |
+      Which cloud provider was scarlet eel first seen in?
+      
+      Flag format: CTF
+    value: 100
+    type: "standard"
+    state: "visible"
+    max_attempts: 0
+    files:
+      - "scarlet_eel_image.png"
+    flags:
+      - flag: "CTF"
+        type: "static"
+    hints:
+      - content: "AWS"
+        cost: 25
+    tags:
+      - "scarlet-eel"
+      - "cloud"
+
+# Global settings
+settings:
+  challenge_visibility: "public"
+  registration_visibility: "public"
+  score_visibility: "public"
+  account_visibility: "public"
+
+# Event information
+event:
+  name: "Operation Scarlet Eel Takedown"
+  description: "A cybersecurity CTF focused on analyzing and countering the Scarlet Eel APT group"
+  start: "2025-07-15T09:00:00Z"
+  end: "2025-07-17T21:00:00Z"
+  freeze: "2025-07-17T20:00:00Z"
