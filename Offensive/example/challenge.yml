@@ -1,0 +1,12 @@
+name: "Example"
+author: "Sysdig ANZ"
+description: |
+  This is the first CTF question, its a very simple request, What are the first five letters of the English alphabet? as a string with no spaces e.g. "abcde"
+category: "Warmup"
+value: 100
+type: standard
+state: visible
+flags: 
+  - abcde 
+requirements:
+    - "Disclaimer"

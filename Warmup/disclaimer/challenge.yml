@@ -1,0 +1,23 @@
+name: "Disclaimer"
+author: "Sysdig ANZ"
+description: |
+  Welcome to this CTF challenge! Before you proceed, please acknowledge the following important disclaimer:
+
+  By participating in this challenge, you acknowledge and agree to the following terms and conditions. This CTF challenge is provided "as is" without any warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.
+
+  In no event shall the creators or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
+
+  Your participation in this challenge is entirely at your own risk. You are responsible for ensuring that your actions comply with all applicable laws and regulations.
+  
+  By Continuting you accept the above.
+
+  The Flag for this Acknowledgement is "iaccept"
+category: "Warmup"
+value: 100
+type: standard
+state: visible
+flags: 
+  - iaccept 
+
+
+  
