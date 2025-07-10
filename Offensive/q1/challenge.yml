@@ -1,0 +1,17 @@
+category: "Offensive"
+description: |
+     Can you name the cloud provider where Scarlet Eel was seen?
+value: 50
+type: "standard"
+state: "visible"
+flags:
+      - AWS
+hints:
+      - content: "This is a three letter cloud provider"
+        cost: 10
+      - content: "Begins with A ends in S"
+        cost: 15
+tags:
+      - "scarlet-eel"
+      - "beginner"
+
