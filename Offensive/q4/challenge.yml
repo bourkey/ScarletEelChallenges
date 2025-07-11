@@ -6,7 +6,7 @@ value: 50
 type: "standard"
 state: "visible"
 flags:
-      - yes
+      - "yes"
 hints:
       - content: "starts with y ends in es"
         cost: 10
