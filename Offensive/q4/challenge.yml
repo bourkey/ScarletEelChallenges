@@ -1,18 +1,18 @@
 name: "Scarlet Eel Offensive Q4"
 category: "Offensive"
 description: |
-     What type of crednetial is the AWS security credential?
+     What port is running the reverse shell?
 
-     (upper case)
 value: 50
 type: "standard"
 state: "visible"
 flags:
-      - AWS-HMAC
+      - "34444"
+
 hints:
-      - content: "starts with AWS"
+      - content: "starts with 344"
         cost: 10
-      - content: "ends with -HMAC"
+      - content: "ends with 44 (has 5 digits in total)"
         cost: 10
 tags:
       - "scarlet-eel"
