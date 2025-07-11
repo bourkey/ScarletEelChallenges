@@ -1,0 +1,21 @@
+name: "Scarlet Eel Offensive Q2"
+category: "Defensive"
+description: |
+     What software famrework is being run on the server?
+
+     (lower case)
+value: 50
+type: "standard"
+state: "visible"
+flags:
+      - spring
+hints:
+      - content: "Popular java framework that was used for microservice deplpoyments"
+        cost: 10
+      - content: "It is a season, starts with spr ends in g"
+        cost: 15
+tags:
+      - "scarlet-eel"
+      - "beginner"
+requirements:
+    - "Scarlet Eel Q1"

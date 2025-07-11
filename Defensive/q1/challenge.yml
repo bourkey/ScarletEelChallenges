@@ -1,0 +1,20 @@
+name: "Scarlet Eel Q1"
+category: "Defensive"
+description: |
+     Under which menu is the “Threat Intelligence” Page
+
+     (lower case)
+value: 50
+type: "standard"
+state: "visible"
+flags:
+      - home
+hints:
+      - content: "There's not place like"
+        cost: 10
+      - content: "Starts with h, end in ome"
+        cost: 15
+tags:
+      - "scarlet-eel"
+      - "beginner"
+
