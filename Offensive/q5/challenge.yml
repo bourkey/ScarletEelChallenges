@@ -2,6 +2,8 @@ name: "Scarlet Eel Offensive Q5"
 category: "Offensive"
 description: |
      Does the stolen PII data include email addresses?
+
+     (lower case)
 value: 50
 type: "standard"
 state: "visible"

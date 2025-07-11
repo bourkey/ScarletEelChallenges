@@ -1,14 +1,18 @@
 name: "Scarlet Eel Offensive Q4"
 category: "Offensive"
 description: |
-     Does the stolen PII data include email addresses?
+     What type is the security credential?
+
+     (upper case)
 value: 50
 type: "standard"
 state: "visible"
 flags:
-      - "yes"
+      - AWS-HMAC
 hints:
-      - content: "starts with y ends in es"
+      - content: "starts with AWS"
+        cost: 10
+      - content: "ends with -HMAC"
         cost: 10
 tags:
       - "scarlet-eel"

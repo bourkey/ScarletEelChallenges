@@ -2,6 +2,7 @@ name: "Scarlet Eel Offensive Q2"
 category: "Offensive"
 description: |
      What software famrework is being run on the server?
+
      (lower case)
 value: 50
 type: "standard"

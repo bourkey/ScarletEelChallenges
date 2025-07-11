@@ -2,6 +2,7 @@ name: "Scarlet Eel Offensive Q3"
 category: "Offensive"
 description: |
      Whch user is running the spring application?
+
      (lower case)
 value: 50
 type: "standard"
