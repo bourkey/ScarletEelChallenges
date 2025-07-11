@@ -1,18 +1,18 @@
 name: "Scarlet Eel Defensive Q2"
 category: "Defensive"
 description: |
-     What software famrework is being run on the server?
+     What severity is the highest risk in the Risks page
 
      (lower case)
 value: 50
 type: "standard"
 state: "visible"
 flags:
-      - spring
+      - critical
 hints:
-      - content: "Popular java framework that was used for microservice deplpoyments"
+      - content: "Starts with cr"
         cost: 10
-      - content: "It is a season, starts with spr ends in g"
+      - content: "ends with ritical"
         cost: 15
 tags:
       - "scarlet-eel"
