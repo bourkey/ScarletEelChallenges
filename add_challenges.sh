@@ -11,3 +11,7 @@ set -x
 /root/.local/bin/ctf challenge install ${BASE_DIR}/q4/
 /root/.local/bin/ctf challenge install ${BASE_DIR}/q5/
 /root/.local/bin/ctf challenge install ${BASE_DIR}/q6/
+
+BASE_DIR="/root/ScarletEelChallenges/Defensive"
+/root/.local/bin/ctf challenge install ${BASE_DIR}/q1/
+/root/.local/bin/ctf challenge install ${BASE_DIR}/q2/
