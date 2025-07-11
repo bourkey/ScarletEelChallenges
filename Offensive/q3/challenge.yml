@@ -2,11 +2,12 @@ name: "Scarlet Eel Offensive Q3"
 category: "Offensive"
 description: |
      Whch user is running the spring application?
+     (lower case)
 value: 50
 type: "standard"
 state: "visible"
 flags:
-      - AWS
+      - root
 hints:
       - content: "Highly privileged user in unix systems"
         cost: 10

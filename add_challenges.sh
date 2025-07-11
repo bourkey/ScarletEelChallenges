@@ -1,8 +1,11 @@
 #!/bin/bash
 
-BASE_DIR="/root/ScarletEelChallenges/Offensive/"
+BASE_DIR="/root/ScarletEelChallenges/Offensive"
 ####
 #Install offensive questions
 ####
-ctf install ctf challenge install ${BASE_DIR}/q1
-ctf install ctf challenge install ${BASE_DIR}/q2
+set -x
+/root/.local/bin/ctf challenge install ${BASE_DIR}/q1/
+/root/.local/bin/ctf challenge install ${BASE_DIR}/q2/
+/root/.local/bin/ctf challenge install ${BASE_DIR}/q3/
+/root/.local/bin/ctf challenge install ${BASE_DIR}/q4/
