@@ -8,7 +8,7 @@ state: "visible"
 flags:
       - spring
 hints:
-      - content: "Popular java framework that was used for microservice deplpoyments""
+      - content: "Popular java framework that was used for microservice deplpoyments"
         cost: 10
       - content: "It is a season, starts with spr ends in g"
         cost: 15
