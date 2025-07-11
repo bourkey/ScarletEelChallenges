@@ -1,0 +1,18 @@
+name: "Scarlet Eel Offensive Q4"
+category: "Offensive"
+description: |
+     Does the stolen PII data include email addresses?
+value: 50
+type: "standard"
+state: "visible"
+flags:
+      - yes
+hints:
+      - content: "starts with y ends in es"
+        cost: 10
+tags:
+      - "scarlet-eel"
+      - "beginner"
+requirements:
+    - "Scarlet Eel Offensive Q3"
+
