@@ -1,0 +1,20 @@
+name: "Scarlet Eel Offensive Q3"
+category: "Offensive"
+description: |
+     Whch user is running the spring application?
+value: 50
+type: "standard"
+state: "visible"
+flags:
+      - AWS
+hints:
+      - content: "Highly privileged user in unix systems"
+        cost: 10
+      - content: "Begins with r ends in t"
+        cost: 15
+tags:
+      - "scarlet-eel"
+      - "beginner"
+requirements:
+    - "Scarlet Eel Offensive Q2"
+
